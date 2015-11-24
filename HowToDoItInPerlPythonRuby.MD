@@ -7,14 +7,14 @@ Here are some of the initial topics. I won’t claim the code shown here is the 
 of the ways to do stuff.
 
 ```
-#!/usr/bin/{perl, python,ruby} (as appropriate) assumed for each line of code below.
+#!/usr/bin/{perl, python,ruby,bash} (as appropriate) assumed for each line of code below.
 ```
 
 ## ARGC/ARGV
 
 Invoke script as:
 ```
-script.{pl,py,rb}   myfile.txt
+script.{pl,py,rb,bash}   myfile.txt
 
 For example, the perl version of the script can be invoked as 
 ./script.pl myfile.txt
@@ -43,6 +43,12 @@ puts "Script name: " + __FILE__
 puts "Argument-1: " + arg1
 ```
 
+### bash
+```
+declare arg1=${1:?First argument required}
+echo "Script name: $0"
+echo "Argument-1: $arg1"
+```
 
 ## Reading contents of a file and storing in a array
 Assumption is that we will invoke it as:
