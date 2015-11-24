@@ -247,6 +247,30 @@ MESSAGE
 puts string
 ```
 
+### Bash
+```
+declare to_name="computer_science_department"
+declare from_name="companyX"
+
+function subject_function {
+  echo "to whom so ever it may concern"
+}
+
+cat <<-ENDOFMESSAGE
+  To: $to_name
+  From: $from_name
+  Subject: $(subject_function)
+
+  Dear Sir,
+    Please arrange for campus interviews.
+
+  Your faithfully
+    $from_name
+    $(date)
+ENDOFMESSAGE
+
+```
+
 
  
 
