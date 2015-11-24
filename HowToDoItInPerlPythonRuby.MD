@@ -44,9 +44,10 @@ puts "Argument-1: " + arg1
 
 
 ## Reading contents of a file and storing in a array
-``` 
 Assumption is that we will invoke it as:
+```
 read_file.{pl,py,rb} myfile.txt
+```
 
 ### Perl
 ```
