@@ -1,5 +1,5 @@
 # Introduction
-  As a devops engineer, I have to maintain code written in several programming (dynamic scriptinging) languages. 
+  As a devops engineer, I have to maintain code written in several programming (dynamic scripting) languages. 
 I always wanted to write something like – how do I do this in perl/python/ruby (and may be bash) kind of blog and 
 here it is.
 
@@ -12,9 +12,13 @@ of the ways to do stuff.
 
 ## ARGC/ARGV
 
-How do I get input from command-line when I invoke my script as
+Invoke script as:
 ```
 script.{pl,py,rb}   myfile.txt
+
+For example, the perl version of the script can be invoked as 
+./script.pl myfile.txt
+
 ```
 
 ### Perl
@@ -26,7 +30,6 @@ print "\n";
 ```
 ### Python
 ```
-
 import sys
 my_script_name,arg1 = sys.argv
 print "Script name: " + my_script_name
@@ -35,7 +38,6 @@ print "Argument-1: " + arg1
 
 ### Ruby
 ```
-
 arg1, = ARGV
 puts "Script name: " + __FILE__
 puts "Argument-1: " + arg1
