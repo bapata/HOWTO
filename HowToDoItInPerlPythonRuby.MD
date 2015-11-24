@@ -18,25 +18,29 @@ script.{pl,py,rb}   myfile.txt
 ```
 
 ### Perl
-
+```
 my ($arg1) = @ARGV;
 print "Script name: " . __FILE__;
 print "\nArgument-1: " . $arg1;
 print "\n";
-
+```
 ### Python
+```
 
 import sys
 my_script_name,arg1 = sys.argv
 print "Script name: " + my_script_name
 print "Argument-1: " + arg1
+```
 
 ### Ruby
+```
 
 arg1, = ARGV
 puts "Script name: " + __FILE__
 puts "Argument-1: " + arg1
- 
+```
+
 
 ## Reading contents of a file and storing in a array
 
@@ -50,11 +54,11 @@ puts "Argument-1: " + arg1
 
 ## Reading a CSV file and generating a hash
 
-# Perl
+### Perl
 
-# Python
+### Python
 
-# Ruby
+### Ruby
 
  
 
