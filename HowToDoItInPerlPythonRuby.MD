@@ -1,7 +1,9 @@
 # Introduction
   As a devops engineer, one has to maintain code developed in several programming (dynamic scripting) languages. Also, the priority for devops engineer is to get stuff done quickly using whatever tools available and then think about long term fix. 
 
-How do I do stuff in perl/python/ruby (and may be bash/awk/sed/grep) is something I always wanted to write. Stackoverflow is the best place find answers but wanted something very handy and here is what I have. I won’t claim the code shown here is the most efficient solve the problem but just enough code to get stuff done.
+How do I do stuff in perl/python/ruby (and may be bash/awk/sed/grep) is something I always wanted to write. Stackoverflow is the best place find answers but wanted something very handy and here is what I have. I won’t claim the code shown here is the most efficient way to solve the problem but just enough code to get stuff done quickly.
+
+Enjoy..!!!
 
 
 ```
