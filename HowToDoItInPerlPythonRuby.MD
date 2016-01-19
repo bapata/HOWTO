@@ -121,6 +121,23 @@ for line in fobj:
   hash[key]=val
 
 print hash
+
+## Approach-2
+
+import sys
+import csv
+
+mystore={}
+filename=sys.argv[1] # file containing entries separated by comma
+fobj = open(filename,'r')
+csv_obj = csv.reader(fobj,delimiter=',')
+for row in csv_obj:
+  if len(row) < 2:
+    continue
+  mystore[row[0]]=row[1]
+
+print mystore
+
 ```
 
 
